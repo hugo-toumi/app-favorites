@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+    
+
+body{
+    margin: 10px 80px;
+    font-family: 'Bebas Neue',cursive;
+    background-image: url("image4.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+
+    
+}
+
+
+nav {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+nav h1{
+    font-family:'Montserrat', sans-serif;
+    font-size: 30px;
+}
+nav .onglets{
+    margin-top: 35px;
+}
+nav .onglets a{
+    text-decoration: none;
+    color: #7f7e7e;
+    margin-right: 10px;
+}
+.articles{
+    margin-top: 30px;
+}
+.articles .article{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+ img{
+ height: 300px;
+ width: 500px;
+}
+
+.articles .article .right{
+    max-width: 50%;
+    margin-left: 40px;
+}
+
+ p {
+     color: #7f7e7e;
+ }
+ .description{
+     color: #2d2d2d;
+     
+ }
+ footer{
+     margin-top: 30px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     color: #494949;
+     
+ }
+ footer h2{
+     font-size: 20px;
+     font-family: 'Montserrat', sans-serif;
+ }
+ footer .social-media{
+     display: flex;
+ }
+ 
+ 
